@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source_files = 'ApiumWechatKit/Classes/**/*.{h,m,swift}' , 'SDKExport/*.h'
   
   s.vendored_libraries  = 'SDKExport/libWeChatSDK.a'
-  s.public_header_files = 'SDKExport/*.h'
+  s.public_header_files = 'SDKExport/*.h' , 'ApiumWechatKit/Classes/ApiumWechatKit/ApiumWechatKit.h'
   
   s.frameworks = 'SystemConfiguration', 'Security', 'CoreTelephony', 'CFNetwork', 'UIKit'
   s.libraries = 'z', 'c++', 'sqlite3.0'

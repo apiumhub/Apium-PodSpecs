@@ -30,6 +30,6 @@ Pod::Spec.new do |s|
   
   s.frameworks = 'SystemConfiguration', 'Security', 'CoreTelephony', 'CFNetwork', 'UIKit'
   s.libraries = 'z', 'c++', 'sqlite3.0'
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -all_load' }
+  s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 
 end
